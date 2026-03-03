@@ -7,7 +7,7 @@ class TestCalculatrice(unittest.TestCase):
 
     # --- division ---
     def test_division_entiers(self):
-        self.assertEqual(division(10, 2), 4.0)
+        self.assertEqual(division(10, 2), 5.0)
 
     def test_division_decimales(self):
         self.assertEqual(division(5, 2), 2.5)
